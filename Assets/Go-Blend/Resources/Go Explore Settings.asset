@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3e68a17da6fe04d996a1bfc6027e41, type: 3}
+  m_Name: Go Explore Settings
+  m_EditorClassIdentifier: 
+  CurrentCell:
+    Properties:
+    - -183.2093|1.291751|-160.5282
+    - 1.179399|225.3822|1.261952
+    - 1.055068|-0.7955381|-3.454678
+    - 0.005216338|0.3884948|-0.00480551
+    CumulativeArousal: 0
+    CumulativeBehavior: 0
+    Age: 0
+    Visited: 1
+  currentTrajectory: 45b9036e45b9036e45b9036ef1ef45bdf1ef45bdf4ef45bddd734dc0da734dc08315d8468315d8468315d846d4f903dc2c95e0802395e0802695e080d5cb22d0d2cb22d04c2d30ee5c5dbf16ad267dc7525d750c555d750c555d750c555d750c1cdeb7411cdeb7411cdeb7411cdeb7411cdeb741e1e8c019eae8c0190981c67cb8b708ccb8b708cc8e0f64cf8e0f64cfe0d86b8a
+  bestTrajectory: 45b9036e45b9036e45b9036e45b9036ef4ef45bdf4ef45bddd734dc0dd734dc0dd734dc0fa604deffa604def22f952521cb875cc32955823329558233295582332955823f691093fa57f7466452de6e3e4e8c019e4e8c019e1e8c019901f036922deb74122deb7411cdeb7411cdeb7411cdeb741cb14fa903b76bda4
+  currentScoreTrace:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+  - 1
+  currentArousalTrace:
+  - 0.10393003
+  - 0.17279114
+  - 0.14926498
+  - 0.10795686
+  - 0.26232862
+  - 0.17125957
+  - 0.21590292
+  - 0.2072617
+  - 0.5165321
+  - 0.32520097
+  - 0.1420127
+  - 0.29228836
+  - 0.28845793
+  - 0.21334933
+  - 0.19095613
+  - 0.30273017
+  - 0.22757323
+  - 0.18657893
+  - 0.2804775
+  - 0.25239772
+  - 0.6103543
+  - 0.87849385
+  - 0.5679022
+  - 0.6054254
+  - 0.60546255
+  - 0.6057953
+  - 0.33717147
+  - 0.26212376
+  - 0.25863743
+  - 0.15514435
+  - 0.13714412
+  - 0.13944717
+  - 0.4441512
+  - 0.20888409
+  - 0.41744456
+  - 0.32007664
+  surrogateVector:
+  - 1
+  - 0.06280184
+  - 0.061744556
+  - 1
+  - 0
+  - 0
+  - 0.18750012
+  - 1
+  - 1
+  - 0.5
+  - 0
+  - 0.5373158
+  - 0.5556001
+  - 0.54226583
+  - 0
+  - 1
+  - 0.56923074
+  - 0.06666667
+  - 0.31033406
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0.7347701
+  - 0.3
+  - 0
+  - 0.16530184
+  - 1.71272
+  - 0.42258236
+  - 0.34762564
+  - 0
+  - 1
+  closestPair:
+  - 0.09797959
+  - 0.32007664
+  exploring: 1
+  savedState: 0
+  returning: 0
+  maxTrajectories: 500000
+  randomActionCount: 20
+  KNN: 5
+  lambda: 0
+  epsilon: 0.01
+  behaviorTarget: Optimal
+  arousalTarget: Human
+  arousalReward: Predict_Arousal
+  selectionMethod: Random
+  targetClusterNumber: 2
+  currentRun: 0
+  noReward: 0
